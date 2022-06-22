@@ -16,7 +16,7 @@ public class MathController {
 	// 6. delegating where data should go (what services we are using, what methods we are using)
 	
 	@GetMapping(value = "/rectanglePerimeter/{height}/{width}")
-	public Float rectanglePerimeter(@PathVariable Float height, @PathVariable Float width) {
+	public Float rectangle_perimeter(@PathVariable Float height, @PathVariable Float width) {
 		return (height + width) * 2;
 	}
 	
