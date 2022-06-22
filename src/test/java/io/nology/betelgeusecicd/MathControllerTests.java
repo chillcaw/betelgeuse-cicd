@@ -21,7 +21,7 @@ public class MathControllerTests {
 	public void testCircleAreaReturnsRightArea() {
 		MathController controller = new MathController();
 		Float result = controller.circleArea(10f);
-		Float output = 300f;
+		Float output = 314.0f;
 		
 		assertTrue(output.equals(result));
 	}
