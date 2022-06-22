@@ -11,7 +11,7 @@ public class MathControllerTests {
 	public void testRectanglePerimeterReturnsRightPerimeter() {
 		MathController controller = new MathController();
 		
-		Float result = controller.rectanglePerimeter(100f, 200f);
+		Float result = controller.rectangle_perimeter(100f, 200f);
 		Float output = 600.0f;
 		
 		assertTrue(output.equals(result));
