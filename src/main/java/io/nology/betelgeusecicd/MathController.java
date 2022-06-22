@@ -20,4 +20,8 @@ public class MathController {
 		return (height + width) * 2;
 	}
 	
+	@GetMapping(value = "circleArea/{radius}")
+	public Float circleArea(@PathVariable Float radius) {
+		return (float)(3.14 * Math.pow(radius, 2)); 
+	}
 }
